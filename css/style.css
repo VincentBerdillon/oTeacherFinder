@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+--color: #222;
+--color-bg: #011020;
+--color-bg-content: #fff;
+--color-list-item: #0052a9;
+--color-list-item-tag: #1771da;
+--color-select: #eee;
+--color-border: #bbb;
+--font-sans : Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-bg);
+  font-family: var(--font-sans);
+}
+
+.container {
+  background-color: var(--color-bg-content);
+  width: 90%;
+  margin: 0 auto;
+  padding : 2rem;
+  max-width: 40rem;
+  min-height: 100vh;
+}
+
+.form__select {
+  background-color: var(--color-select);
+  border: 1px solid var(--color-border);
+  font-size: 1.3125 rem;
+  padding: 1rem;
+  width: 50%;
+} 
+
+.counter{
+  border-bottom: 1px solide var(--color-border);
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  padding-bottom: 0.5rem;
+}
+
+.list{
+  padding: 0px;
+}
+
+.list__item{
+  background-color: var(--color-list-item);
+  border-radius: 4px;
+  color: var(--color-bg-content);
+  margin: 0.25rem 0;
+  padding: 1rem;
+}
+
+.list__item-tag{
+  background-color: var(--color-list-item-tag);
+  border-radius: 4px;
+  font-size: 0.75em;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+/* Ajoute tous les styles dont tu as besoin ici */
+/* 
+  codes couleurs :
+  - bleu des items de listes : #0052a9
+  - bleu des tags : #1771da
+  - gris des select: #eee
+  - gris des bordures: #bbb
+*/
